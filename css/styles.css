@@ -564,11 +564,8 @@ textarea {
 }
 
 .mobile-phone {
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  color: #4d5ae5;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .mobile-email {
@@ -1114,5 +1111,11 @@ textarea {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url("../images/people-office@2x.jpg");
+  }
+}
+@media (min-width: 768px) {
+  .mobile-menu,
+  .mobile-menu.is-open {
+    display: none;
   }
 }
